@@ -1,12 +1,12 @@
 # simple-rocket-server
 
-Kind of a todoAPI server. Just basic implementation which let you keeps data in sqlite db.
+Kind of a todoAPI server. Just basic implementation which let you keeps data in sqlite db. Based on [this tutorial](https://www.youtube.com/watch?v=8RA6LSjXvRk).
 
 ### Routes:
 
-`GET /todo` - get all todos from the db
-`POST /todo ` + `{"message"}` - add the todo item to the db.
-`DELETE /todo/{id}` - delete todo with a given id.
+- `GET /todo` - get all todos from the db
+- `POST /todo ` + `{"message"}` - add the todo item to the db.
+- `DELETE /todo/{id}` - delete todo with a given id.
 
 ### Testing
 
